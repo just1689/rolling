@@ -19,7 +19,7 @@ done < "$input"
 
 
 if [ "$line" == "" ]; then
-  echo "No version after $next, stopping..."
+  echo "No version after $live, stopping..."
   exit 0;
 fi
 echo "> Current versio should be: $line"
