@@ -22,5 +22,5 @@ if [ "$prev" == "" ]; then
   exit 0;
 fi
 
-echo "> The previous version was: $prev"
+echo "> Current versio should be: $prev"
 echo "$prev" > current
