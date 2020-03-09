@@ -2,7 +2,6 @@
 input="history"
 prev=""
 live=$( cat current )
-echo "The last live version was: $live"
 
 
 while IFS= read -r line
